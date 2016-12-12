@@ -21,8 +21,8 @@ if __name__ == '__main__':
 
     viterbi_tagger.testAgainstCorpus(conll2000)
 
-print "Test of accuracy: Brown corpus"
-print "The test will use a long time, please be patient."
-viterbi_tagger.buildProbDist(brown)
-viterbi_tagger.testAgainstCorpus(brown)
+    print "Test of accuracy: Brown corpus"
+    print "The test will use a long time, please be patient."
+    viterbi_tagger.buildProbDist(brown)
+    viterbi_tagger.testAgainstCorpus(brown)
 
